@@ -4,7 +4,7 @@
 %% globals
 --]]
 
-HC2 = Net.FHttp("192.168.0.14") 
+HC2 = Net.FHttp("192.168.0.150") 
 HC2:setBasicAuthentication(--username, --password) 
 
 response, status, errorCode = HC2:POST("/api/settings/reboot", "data=reset") 
