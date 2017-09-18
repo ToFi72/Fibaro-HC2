@@ -14,4 +14,4 @@ then
   fibaro:log(status) 
 else 
   fibaro:log("error") 
-end 
+end
