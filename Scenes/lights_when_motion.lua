@@ -8,7 +8,7 @@
 local pir1      = 96;  -- * change this to the id of your pir/motion detector *
 local pir2      = 138;
 
-local light     = 104;  -- * change this to the id of your light (dimmer only) *
+local light     = 104;  -- * change this to the id of your light *
 
 local duration  = 1800; -- seconds to keep on the light after last detected movement
 -- sets local variables
