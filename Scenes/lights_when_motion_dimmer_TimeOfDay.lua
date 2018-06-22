@@ -6,7 +6,7 @@
 
 
 local pir1      = 105;  -- * change this to the id of your pir/motion detector *
-local pir2      = 105;
+local pir2      = 106;
 
 local light     = 33;  -- * change this to the id of your light (dimmer only) *
 
@@ -19,15 +19,15 @@ local tod = fibaro:getGlobalValue("TimeOfDay")
 local DimLvl;
 
 if tod == "morning" then
-  DimLvl = 70; -- in % Dim level
+  DimLvl = 70; -- Set % Dim level
 elseif tod  == "afternoon" then
-  DimLvl = 100; -- in % Dim level
+  DimLvl = 100; -- Set % Dim level
 elseif tod  == "evening" then 
-  DimLvl = 70; -- in % Dim level
+  DimLvl = 70; -- Set % Dim level
 elseif tod == "night" then 
-  DimLvl = 50; -- in % Dim level
+  DimLvl = 50; -- Set % Dim level
 else
-  DimLvl = 100; -- in % Dim level If no Global is present.
+  DimLvl = 100; -- Set % Dim level If no Global is present.
 end
 
 -- fibaro:debug("Time of Day : "..tod)
