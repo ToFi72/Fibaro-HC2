@@ -5,8 +5,8 @@
 --]]
 
 -- In Variabels panel create a global variable.
--- Variable namen"TimeOfDay".
--- Leave the value as default "0" as this script will change it based on time of day
+-- Variable name : TimeOfDay
+-- Leave the value as default "0", this script will change it based on time of day
 
 
 local debug = true;
